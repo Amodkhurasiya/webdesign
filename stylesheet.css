@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Set HTML and body to full height and width */
 html, body {
     width: 100%;
     height: 100%;
@@ -51,8 +50,8 @@ html, body {
     font-size: 50px;
     font-weight: 500;
     line-height: 55px;
-    padding-bottom: 20px; /* Added padding */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Added text shadow */
+    padding-bottom: 20px; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
 }
 
 #center-in {
@@ -67,8 +66,8 @@ html, body {
     font-size: 14px;
     font-weight: 570;
     line-height: 27px;
-    padding-right: 20px; /* Added padding */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Added text shadow */
+    padding-right: 20px; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
 }
 
 #right {
@@ -119,7 +118,7 @@ html, body {
     text-decoration: underline;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     #nav {
         flex-direction: column;
